@@ -11,7 +11,7 @@ Slack_Clone
 * Real-time database(Firlbase)
 
 #### DATE
-Start date : 2020-08-20 ~ ing<br>  
+Start date : 2020-08-20 ~ ing <br>  
 
 # install
 
@@ -24,6 +24,5 @@ Start date : 2020-08-20 ~ ing<br>
 You can watch the tutorial -> Click LINK!
 
 ###### Project_References 
-
-: [LINK](https://www.youtube.com/watch?v=Oo4ziTddOxs) <br>
+Project : [LINK](https://www.youtube.com/watch?v=Oo4ziTddOxs) <br>
 Thanks to [Clever Programmer](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ) help, This project was able to succeed in making.
