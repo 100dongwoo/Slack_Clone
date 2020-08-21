@@ -3,8 +3,8 @@ import './Chat.css';
 import { useParams } from 'react-router-dom';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import ErrorOutlineIcon from '@material-ui/icons/ErrorOutline';
-import db from '../firebase';
-import Message from './Message';
+import db from '../../firebase';
+import Message from '../Message/Message';
 
 function Chat() {
     const { roomId } = useParams();

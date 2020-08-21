@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Sidebar.css';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import CreateIcon from '@material-ui/icons/Create';
-import SidebarOption from './SidebarOption';
+import SidebarOption from '../sidebarOption/SidebarOption';
 import InsertCommentIcon from '@material-ui/icons/InsertComment';
 import InboxIcon from '@material-ui/icons/Inbox';
 import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
@@ -13,9 +13,11 @@ import FileCopyIcon from '@material-ui/icons/FileCopy';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
-import db from '../firebase';
+import db from '../../firebase';
+import { useStateValue } from '../Login/StateProvider';
 function Sidebar() {
     const [channels, setChannels] = useState([]);
+    const [{ user }] = useStateValue();
     useEffect(() => {
         db.collection('rooms').onSnapshot((snapshot) =>
             setChannels(
@@ -32,10 +34,9 @@ function Sidebar() {
         <div className="sidebar">
             <div className="sidebar_header">
                 <div className="sidebar_info">
-                    <h2> clelo</h2>
                     <h3>
                         <FiberManualRecordIcon />
-                        백동우
+                        {user?.displayName}
                     </h3>
                 </div>
                 <CreateIcon />

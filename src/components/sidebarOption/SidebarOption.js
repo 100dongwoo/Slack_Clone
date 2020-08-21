@@ -1,7 +1,7 @@
 import React from 'react';
 import './SidebarOption.css';
 import { useHistory } from 'react-router';
-import db from '../firebase';
+import db from '../../firebase';
 
 function SidebarOption({ Icon, title, id, addChannelOption }) {
     const history = useHistory(); //back해주는거  페이지 클릭시 아이콘 페이지이동
