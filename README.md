@@ -48,3 +48,5 @@ Thanks to [Clever Programmer](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CG
 2. snapshot(maybe fiiebase)
 3. useParams
 4.useStateValue
+5. roomDetails?.name (.(dot))
+6. important
