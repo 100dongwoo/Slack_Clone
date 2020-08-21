@@ -20,6 +20,7 @@ Start date : 2020-08-20 ~ ing <br>
 ### server
 
 ## Information
+npm install firebase<br>
 
 You can watch the tutorial -> Click LINK!
 
