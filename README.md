@@ -22,6 +22,12 @@ Start date : 2020-08-20 ~ ing <br>
 ## Information
 npm install firebase<br>
 
+##### DB Data Input process(firebase)
+![Add_Database](./image/Add_Database.png)<br>
+##### DB Data Structure in source (firebase)
+![DB_structure](./image/DB_structure.png)
+
+
 You can watch the tutorial -> Click LINK!
 
 ###### Project_References 

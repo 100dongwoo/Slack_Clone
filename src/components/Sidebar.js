@@ -51,7 +51,11 @@ function Sidebar() {
             <hr />
             <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
             <hr />
-            <SidebarOption Icon={AddIcon} addChannerOption="Add Channel" />
+            <SidebarOption
+                Icon={AddIcon}
+                title="Add Channel"
+                addChannelOption="Add Channel"
+            />
 
             {/*    connet to db and list all the channels*/}
             {/* */}
