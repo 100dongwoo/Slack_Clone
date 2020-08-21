@@ -7,9 +7,9 @@ function SidebarOption({ Icon, title, id, addChannelOption }) {
     const history = useHistory(); //back해주는거  페이지 클릭시 아이콘 페이지이동
     const selectChannel = () => {
         if (id) {
-            history.push('/room/${id');
+            history.push(`/room/${id}`);
         } else {
-            history.push('title');
+            history.push(title);
         }
     };
     const addChannel = () => {
@@ -30,7 +30,8 @@ function SidebarOption({ Icon, title, id, addChannelOption }) {
                 <h3>{title}</h3>
             ) : (
                 <h3 className="sidebarOption_channel">
-                    <span className="sidebarOption_hash"># {title}</span>
+                    <span className="sidebarOption_hash">#</span>
+                    {title}
                 </h3>
             )}
         </div>

@@ -49,7 +49,7 @@ function Sidebar() {
             <SidebarOption Icon={FileCopyIcon} title="File browser" />
             <SidebarOption Icon={ExpandLessIcon} title="showless" />
             <hr />
-            <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
+            <SidebarOption Icon={ExpandMoreIcon} title="Show more" />
             <hr />
             <SidebarOption
                 Icon={AddIcon}

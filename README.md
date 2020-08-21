@@ -33,3 +33,8 @@ You can watch the tutorial -> Click LINK!
 ###### Project_References 
 Project : [LINK](https://www.youtube.com/watch?v=Oo4ziTddOxs) <br>
 Thanks to [Clever Programmer](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ) help, This project was able to succeed in making.
+
+#### What I didn't know or confusing
+1. <strong>
+2. snapshot(maybe fiiebase)
+3. useParams

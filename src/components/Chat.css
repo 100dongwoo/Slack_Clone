@@ -25,4 +25,5 @@
 .chat_headerRight>p>.MuiSvgIcon-root{
     margin-right: 5px !important;
     font-size: 16px;
+    box-sizing: content-box !important;
 }
