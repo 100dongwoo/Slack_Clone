@@ -31,22 +31,22 @@ npm install firebase<br>
 ![timestamp](./image/time.png) <br>
 
 
-
-
 ##### Google Loign
 * firebase->authentication->Google Access!!<br>
  
+##### result screen
+![timestamp](./image/demo.png) <br>
 
-You can watch the tutorial -> Click LINK!
+####Demo Reference<br>
+https://slack-clone-a8239.web.app
+
+#### What I didn't know or confusing
+1. strong : 굵은글씨 <br>
+2. onsnapshot(maybe firebase) : 메서드로 문서를 수신 대기 <br> 
+3. useParams : url과 관련된 값들을 객체로 받을 수 있다. <br>
+4. roomDetails?.name (.(dot)) <br> (Maybe 존재하면 )
+5. important : !important를 주는순간 우선순위 가장 높아짐 <br>
 
 ###### Project_References 
 Project : [LINK](https://www.youtube.com/watch?v=Oo4ziTddOxs) <br>
 Thanks to [Clever Programmer](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ) help, This project was able to succeed in making.
-
-#### What I didn't know or confusing
-1. strong
-2. snapshot(maybe fiiebase)
-3. useParams
-4.useStateValue
-5. roomDetails?.name (.(dot))
-6. important
