@@ -1,4 +1,4 @@
-##Slack_Clone
+## Slack_Clone
 
 ## Building the SLACK app
 * React JS
