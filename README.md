@@ -11,14 +11,7 @@ Slack_Clone
 * Real-time database(Firlbase)
 
 #### DATE
-Start date : 2020-08-20 ~ ing <br>  
-
-# install
-
-### client 
-
-### server
-
+Start date : 2020-08-20 ~ 20.08.21(about 8h)<br>  
 ## Information
 npm install firebase<br>
 -> 2:57:00~ Add Google Authentication!! <br>
@@ -28,7 +21,7 @@ npm install firebase<br>
 ##### DB Data Structure in source (firebase)
 ![DB_structure](./image/DB_structure.png) <br>
 ##### timestamp processing
-![timestamp](./image/time.png) <br>
+![timestamp](./image/Time.png) <br>
 
 
 ##### Google Loign
@@ -37,7 +30,7 @@ npm install firebase<br>
 ##### result screen
 ![timestamp](./image/demo.png) <br>
 
-####Demo Reference<br>
+#### Demo Reference<br>
 https://slack-clone-a8239.web.app
 
 #### What I didn't know or confusing
